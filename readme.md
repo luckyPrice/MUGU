@@ -13,7 +13,6 @@
 
 # 클라우드 아키텍처
 ![alt text](image-1.png)
-## 구조 설명
 - Fargate, ECS로 프런트엔드·백엔드 컨테이너 배포, 블루/그린 배포, Aurora 사용.
 - Github, CodeBuild, CodeDeploy를 통해 자동화된 ECS 배포 진행.
 - ECR에 컨테이너 이미지 저장, CloudWatch Logs, Fluent Bit로 로깅 및 모니터링 수행.
@@ -26,4 +25,14 @@
 -  GitHub에서 코드를 푸시하면 CodePipeline이 이를 감지하고, CodeBuild가 Docker 이미지를 빌드하여 컨테이너 레지스트리에 저장 
 -  이후 CodeDeploy가 이를 ECS의 Fargate 환경에 배포하며, Auto Scaling Group을 통해 컨테이너를 동적으로 확장/축소
 -  IAM 역할을 활용하여 권한을 관리. Blue/Green 배포 및 모니터링.
+
+---
+
+# Frontend, Backend
+![alt text](image-3.png)
+
+---
+
+# MUGU
+![alt text](image-4.png)
 

@@ -1,3 +1,6 @@
 [submodule "online-e-commerce-marketplace-project-front-end"]
 	path = online-e-commerce-marketplace-project-front-end
 	url = https://github.com/luckyPrice/online-e-commerce-marketplace-project-front-end.git
+[submodule "online-e-commerce-marketplace-project-backend"]
+	path = online-e-commerce-marketplace-project-backend
+	url = https://github.com/luckyPrice/online-e-commerce-marketplace-project-backend.git
